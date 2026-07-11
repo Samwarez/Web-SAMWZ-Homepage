@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sam | Welcome</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+    --accent:#F06A8A;
+    --text:#2d2d2d;
+    --muted:#666;
+    --border:#ececec;
+    --bg:#fafafa;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Inter",sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.7;
+}
+
+nav{
+    max-width:1100px;
+    margin:auto;
+    padding:24px 32px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-weight:700;
+    font-size:1.15rem;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:2rem;
+}
+
+nav a{
+    text-decoration:none;
+    color:var(--text);
+    font-weight:500;
+}
+
+nav a:hover{
+    color:var(--accent);
+}
+
+main{
+
+    max-width:760px;
+    margin:0 auto;
+    padding:40px 24px 80px;
+    text-align:center;
+
+}
+
+.hero img{
+    width:180px;
+    margin-bottom:25px;
+}
+
+h1{
+    font-size:4rem;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    font-size:1.45rem;
+    color:var(--muted);
+    margin-bottom:40px;
+}
+
+.intro{
+
+    font-size:1.15rem;
+    color:#444;
+
+    margin-bottom:60px;
+
+}
+
+.quote{
+
+    font-family:Georgia,serif;
+    font-style:italic;
+    font-size:1.55rem;
+
+    color:#555;
+
+    margin:70px auto;
+
+    max-width:650px;
+
+    position:relative;
+
+}
+
+.quote:before{
+
+content:"“";
+font-size:4rem;
+position:absolute;
+left:-30px;
+top:-20px;
+color:#ddd;
+
+}
+
+.quote:after{
+
+content:"”";
+font-size:4rem;
+position:absolute;
+right:-20px;
+bottom:-50px;
+color:#ddd;
+
+}
+
+footer{
+
+    border-top:1px solid var(--border);
+
+    margin-top:70px;
+    padding-top:35px;
+
+}
+
+.social{
+
+display:flex;
+justify-content:center;
+gap:28px;
+margin-bottom:20px;
+
+}
+
+.social a{
+
+text-decoration:none;
+color:#666;
+
+}
+
+.social a:hover{
+
+color:var(--accent);
+
+}
+
+small{
+
+color:#888;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">Sam</div>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+<li><a href="#">Apps</a></li>
+<li><a href="#">Projects</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<main>
+
+<div class="hero">
+
+<img src="images/pirate-pig.png" alt="Pirate Pig">
+
+<h1>Hi, I'm Sam.</h1>
+
+<p class="subtitle">
+Welcome to my little cozy place on the web.
+</p>
+
+<p class="intro">
+
+I'm an aspiring software developer, lifelong tinkerer,
+and enthusiastic collector of interesting projects.
+
+<br><br>
+
+This little corner of the internet is where I share
+the things I'm building, the lessons I'm learning,
+and the occasional ramble about technology,
+science, and whatever else has captured my curiosity.
+
+</p>
+
+</div>
+
+<div class="quote">
+
+Attempting the idiotic, using the impractical, to do the impossible.
+
+</div>
+
+<footer>
+
+<div class="social">
+
+<a href="#">GitHub</a>
+<a href="#">Email</a>
+<a href="#">Mastodon</a>
+
+</div>
+
+<small>
+
+© 2026 Sam. All rights reserved.
+
+</small>
+
+</footer>
+
+</main>
+
+</body>
+</html>
